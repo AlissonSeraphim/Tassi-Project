@@ -22,6 +22,7 @@ class Header extends React.Component {
             />
             <span
               className="ml-3 text-2xl font-bold dark:text-white"
+              href="#main-section"
             >
               Tassi Construções
 
@@ -31,14 +32,14 @@ class Header extends React.Component {
             className="md:ml-auto flex flex-wrap items-center text-base justify-center"
           >
             <a
-              href="quem-somos"
+              href="#aboutUs"
               className="mr-5 text-gray-900 hover:text-orange-500"
             >
               Quem somos
 
             </a>
             <a
-              href="cases-de-sucesso"
+              href="#completed-projects"
               className="mr-5  text-gray-900 hover:text-orange-500"
             >
               Cases de sucesso
@@ -46,7 +47,7 @@ class Header extends React.Component {
             </a>
 
             <a
-              href="cases-de-sucesso"
+              href="#talk-to-us"
               className="mr-5  text-orange-600 hover:text-blue-500 animate-bounce"
             >
               Fale conosco
