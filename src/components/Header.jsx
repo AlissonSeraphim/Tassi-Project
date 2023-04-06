@@ -44,6 +44,15 @@ class Header extends React.Component {
               Cases de sucesso
 
             </a>
+
+            <a
+              href="cases-de-sucesso"
+              className="mr-5  text-orange-600 hover:text-yellow-400 animate-bounce"
+            >
+              Fale conosco
+
+            </a>
+
           </nav>
         </div>
       </header>
