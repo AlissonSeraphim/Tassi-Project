@@ -3,7 +3,7 @@ import React from 'react';
 class MainSection extends React.Component {
   render() {
     return (
-      <div className="relative" id="home">
+      <div className="relative" id="main-section">
         <div
           aria-hidden="true"
           className="absolute inset-0 grid grid-cols-2
@@ -37,7 +37,7 @@ class MainSection extends React.Component {
           </p>
           <div className="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
             <a
-              href="#testimonials"
+              href="#talk-to-us"
               className="relative flex h-11 w-full items-center justify-center px-6
               before:absolute before:inset-0 before:rounded-full before:bg-orange-400
               before:transition before:duration-300 hover:before:scale-105
