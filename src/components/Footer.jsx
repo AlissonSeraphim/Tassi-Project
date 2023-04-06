@@ -12,10 +12,26 @@ class Footer extends React.Component {
             <ul
               className="flex flex-col items-center justify-center gap-4 py-4 sm:flex-row sm:gap-8"
             >
-              <li><a href="#main-section" className="text-gray-700 hover:text-orange-500">Home</a></li>
-              <li><a href="#AboutUs" className="text-gray-700 hover:text-orange-500">Quem Somos</a></li>
-              <li><a href="#completed-projects" className="text-gray-700 hover:text-orange-500">Cases de Sucesso</a></li>
-              <li><a href="#talk-to-us" className="text-gray-700 hover:text-orange-500">Fale Conosco</a></li>
+              <li>
+                <a href="#main-section" className="text-gray-700 hover:text-orange-500">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#AboutUs" className="text-gray-700 hover:text-orange-500">
+                  Quem Somos
+                </a>
+              </li>
+              <li>
+                <a href="#completed-projects" className="text-gray-700 hover:text-orange-500">
+                  Cases de Sucesso
+                </a>
+              </li>
+              <li>
+                <a href="#talk-to-us" className="text-gray-700 hover:text-orange-500">
+                  Fale Conosco
+                </a>
+              </li>
             </ul>
             <div className="m-auto flex w-max items-center justify-between space-x-4">
               <a href="tel:+243996660436" aria-label="call">
