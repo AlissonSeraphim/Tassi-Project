@@ -39,13 +39,12 @@ class MainSection extends React.Component {
             <a
               href="#testimonials"
               className="relative flex h-11 w-full items-center justify-center px-6
-                before:absolute before:inset-0 before:rounded-full before:bg-secondary
-                before:transition before:duration-300 hover:before:scale-105
-                active:duration-75 active:before:scale-95 sm:w-max"
+              before:absolute before:inset-0 before:rounded-full before:bg-orange-400
+              before:transition before:duration-300 hover:before:scale-105
+              active:duration-75 active:before:scale-95 sm:w-max text-gray-900"
             >
               <span
-                className="relative text-base font-semibold
-                   text-white"
+                className="relative text-base font-semibold text-white"
               >
                 Fale conosco
 
@@ -62,7 +61,7 @@ class MainSection extends React.Component {
                 className="text-lg font-semibold text-gray-700
                  dark:text-white"
               >
-                Qualidade assegurada
+                Qualidade
               </h6>
               <p className="mt-2 text-gray-500">
                 Enfoque na Qualidade
@@ -70,7 +69,7 @@ class MainSection extends React.Component {
             </div>
             <div className="text-left">
               <h6 className="text-lg font-semibold text-gray-700 dark:text-white">
-                Atendimento personalizado
+                Atendimento
               </h6>
               <p className="mt-2 text-gray-500">
                 Soluções personalizadas
@@ -78,7 +77,7 @@ class MainSection extends React.Component {
             </div>
             <div className="text-left">
               <h6 className="text-lg font-semibold text-gray-700 dark:text-white">
-                Satisfação total
+                Satisfação
               </h6>
               <p className="mt-2 text-gray-500">
                 Resolução das necessidades
