@@ -47,7 +47,7 @@ class Header extends React.Component {
 
             <a
               href="cases-de-sucesso"
-              className="mr-5  text-orange-600 hover:text-yellow-400 animate-bounce"
+              className="mr-5  text-orange-600 hover:text-blue-500 animate-bounce"
             >
               Fale conosco
 
